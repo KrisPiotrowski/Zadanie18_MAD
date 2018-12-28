@@ -6,10 +6,31 @@
     <Name>Zad18_zaliczenie_KP_10621.database</Name>
     <FullPath>Zad18_zaliczenie_KP_10621.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>DSWideWorldImportersDW.ds</Name>
+      <FullPath>DSWideWorldImportersDW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DSWideWorldImportersDW</Id>
+            <Name>DSWideWorldImportersDW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=KP\MSSQLSERVER01;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DSWideWorldImportersDW</Id>
+            <Name>DSWideWorldImportersDW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
