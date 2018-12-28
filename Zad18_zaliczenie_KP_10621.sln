@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Zad18_zaliczenie_KP_10621", "Zad18_zaliczenie_KP_10621\Zad18_zaliczenie_KP_10621.dwproj", "{D853F340-9702-4F04-A59F-F0576D94D11E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D853F340-9702-4F04-A59F-F0576D94D11E}.Development|Default.ActiveCfg = Development
+		{D853F340-9702-4F04-A59F-F0576D94D11E}.Development|Default.Build.0 = Development
+		{D853F340-9702-4F04-A59F-F0576D94D11E}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42A7F69C-ACF9-44BD-A1D2-BDE4004E30A8}
+	EndGlobalSection
+EndGlobal
