@@ -6,6 +6,44 @@
     <Name>Zad18_zaliczenie_KP_10621.database</Name>
     <FullPath>Zad18_zaliczenie_KP_10621.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>OLAPWideWorldImportersDW.cube</Name>
+      <FullPath>OLAPWideWorldImportersDW.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>OLAPWideWorldImportersDW.partitions</Name>
+          <FullPath>OLAPWideWorldImportersDW.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>DimCustomer.dim</Name>
+      <FullPath>DimCustomer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimCity.dim</Name>
+      <FullPath>DimCity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimDate.dim</Name>
+      <FullPath>DimDate.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimEmployee.dim</Name>
+      <FullPath>DimEmployee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimStockItem.dim</Name>
+      <FullPath>DimStockItem.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimSupplier.dim</Name>
+      <FullPath>DimSupplier.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>DSWideWorldImportersDW.ds</Name>
@@ -18,6 +56,12 @@
       <FullPath>DSVWideWorldImportersDW.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Miscellaneous>
+    <ProjectItem>
+      <Name>Zadanie18_SchematIWidoki.sql</Name>
+      <FullPath>Zadanie18_SchematIWidoki.sql</FullPath>
+    </ProjectItem>
+  </Miscellaneous>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
