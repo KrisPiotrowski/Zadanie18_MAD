@@ -126,6 +126,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="61acd2dd-1c77-4f56-afb5-3cb52c4d87b6">
+      <Language>1045</Language>
+      <Caption>Data</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="e96dc54a-153b-4b7c-ae0a-7a3ed5128e65">
       <ID>Date</ID>
@@ -177,6 +183,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="f96a76ad-1ae5-4874-ae4a-8ce4f852cf2a">
+          <Language>1045</Language>
+          <Caption>Dzień</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -194,6 +206,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="80c67771-247a-4ed1-bd1c-650556956272">
+          <Language>1045</Language>
+          <Caption>Miesiąc (skrót)</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -210,6 +228,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="3ab9ae79-7c8a-412a-9611-08a4d7da12bb">
+          <Language>1045</Language>
+          <Caption>Numer tygodnia</Caption>
+        </Translation>
+      </Translations>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -345,42 +369,90 @@
     <Hierarchy dwd:design-time-name="c634ac8c-eb43-4bc4-b5fb-edfd7a31a6d0">
       <ID>Hierarchy</ID>
       <Name>Hierarchy Calendar YMD</Name>
+      <Translations>
+        <Translation dwd:design-time-name="6cf04a34-f139-407b-b9ab-860b2ee127c6">
+          <Language>1045</Language>
+          <Caption>Herarchia - rok kalendarzowy</Caption>
+        </Translation>
+      </Translations>
       <Levels>
         <Level dwd:design-time-name="afc2ef92-9761-434b-88fb-3484680b059b">
           <ID>Calendar Year</ID>
           <Name>Calendar Year</Name>
           <SourceAttributeID>Calendar Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="e931512d-19ea-4c94-8b1f-f986ab23c634">
+              <Language>1045</Language>
+              <Caption>Rok kalendarzowy</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="0e372d71-dedc-4b27-8101-9bff5e4b5169">
           <ID>Calendar Month Key</ID>
           <Name>Calendar Month Key</Name>
           <SourceAttributeID>Calendar Month Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="ab3864d8-ce8d-4a14-b928-ec159e6ed4c9">
+              <Language>1045</Language>
+              <Caption>Miesiąc kalendarzowy</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="afb8f9ca-1d81-4df2-a13d-f51a9f7d2e41">
           <ID>Date Key</ID>
           <Name>Date Key</Name>
           <SourceAttributeID>Date Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="ed22b259-a5c2-45ee-8341-5f56d2e4edbd">
+              <Language>1045</Language>
+              <Caption>Dzień</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>
     <Hierarchy dwd:design-time-name="04bad048-74b7-4d94-b0e1-e4e203418d7c">
       <ID>Hierarchy 1</ID>
       <Name>Hierarchy Fiscal YMD</Name>
+      <Translations>
+        <Translation dwd:design-time-name="f63db33b-9257-467c-a26d-4b258e0b1e29">
+          <Language>1045</Language>
+          <Caption>Hierarchia - rok fiskalny</Caption>
+        </Translation>
+      </Translations>
       <Levels>
         <Level dwd:design-time-name="7fab75d9-3844-4d84-a765-06a886891293">
           <ID>Fiscal Year</ID>
           <Name>Fiscal Year</Name>
           <SourceAttributeID>Fiscal Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="23e65856-51d3-4cd6-9320-1bc25c9748a1">
+              <Language>1045</Language>
+              <Caption>Rok fiskalny</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="d9b4acee-3827-4664-8d98-a77c1d1391c2">
           <ID>Fiscal Month Key</ID>
           <Name>Fiscal Month Key</Name>
           <SourceAttributeID>Fiscal Month Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="2c33aff5-f008-4856-8a8b-30d0087658b1">
+              <Language>1045</Language>
+              <Caption>Miesiąc fiskalny</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="d2cecea7-5bdc-4372-b3ad-8ceb3c7e3e57">
           <ID>Date Key</ID>
           <Name>Date Key</Name>
           <SourceAttributeID>Date Key</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="fa8f21c0-1452-4adc-b588-d85e1fd451ac">
+              <Language>1045</Language>
+              <Caption>Data</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>
