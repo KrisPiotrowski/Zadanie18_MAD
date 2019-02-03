@@ -3,7 +3,7 @@
   <Name>DSWideWorldImportersDW</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI11.1;Data Source=KP\MSSQLSERVER01;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</ConnectionString>
+  <ConnectionString>Provider=SQLNCLI11.1;Data Source=KP\KPINNOVATE2017;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</ConnectionString>
   <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
   <ImpersonationInfo>
     <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
